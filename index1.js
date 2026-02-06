@@ -1,4 +1,4 @@
-console.log("This is the first file.");
+/*console.log("This is the first file.");
 
 const product ={
     title: "Ball Pen",
@@ -20,5 +20,14 @@ console.log(profile);
 for(let num=0; num<=100; num++)
     if(num%2==0){
     console.log("num=",num);
+}*/
+
+let gameNum = 34;
+let userNum =prompt("Guess the number between 1 and 100");
+
+while (userNum != gameNum){
+    userNum = prompt("Wrong guess! Try again.");
 }
+alert("Congratulations! You guessed the number.");
+
 
