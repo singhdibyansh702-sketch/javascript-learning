@@ -8,5 +8,14 @@ const product ={
 };
 console.log(product);
 
+const profile ={
+    fullName: "DS",
+    followers: 1200,
+    following: 300,
+    posts: 75,
+    isFollowing: true
+};
+console.log(profile);
+
 
 
