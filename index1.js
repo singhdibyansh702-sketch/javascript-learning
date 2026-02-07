@@ -22,12 +22,15 @@ for(let num=0; num<=100; num++)
     console.log("num=",num);
 }*/
 
-let gameNum = 34;
-let userNum =prompt("Guess the number between 1 and 100");
+// let gameNum = 34;
+// let userNum =prompt("Guess the number between 1 and 100");
 
-while (userNum != gameNum){
-    userNum = prompt("Wrong guess! Try again.");
-}
-alert("Congratulations! You guessed the number.");
+// while (userNum != gameNum){
+//     userNum = prompt("Wrong guess! Try again.");
+// }
+// alert("Congratulations! You guessed the number.");
+
+let str="Hello, World!";
+let str2="welcome to JavaScript programming.";
 
 
