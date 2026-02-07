@@ -30,7 +30,13 @@ for(let num=0; num<=100; num++)
 // }
 // alert("Congratulations! You guessed the number.");
 
-let str="Hello, World!";
-let str2="welcome to JavaScript programming.";
+// let str="Hello, World!";
+// let str2="welcome to JavaScript programming.";
 
+let obj1={
+    item:"pen",
+    price:10,
+}
 
+let output=`The price of the ${obj1.item} is ${obj1.price} rupees.`;
+console.log(output);
