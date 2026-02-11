@@ -41,7 +41,18 @@ for(let num=0; num<=100; num++)
 // let output=`The price of the ${obj1.item} is ${obj1.price} rupees.`;
 // console.log(output);
 
-let fullname = prompt("Enter your fullrname without space:");
-let username = "@"+ fullname + fullname.length;
-console.log("Your username is:", username);
+// let fullname = prompt("Enter your fullrname without space:");
+// let username = "@"+ fullname + fullname.length;
+// console.log("Your username is:", username);
+
+let marks = [85,97,44,37,76,60];
+
+let sum = 0;
+
+for(let val of marks){
+    sum += val;
+}
+
+let avg = sum / marks.length;
+console.log(`Average marks of the class is =${avg}`);
 
