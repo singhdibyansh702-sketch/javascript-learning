@@ -1,4 +1,4 @@
-/*console.log("This is the first file.");
+  /*console.log("This is the first file.");
 
 const product ={
     title: "Ball Pen",
@@ -33,10 +33,15 @@ for(let num=0; num<=100; num++)
 // let str="Hello, World!";
 // let str2="welcome to JavaScript programming.";
 
-let obj1={
-    item:"pen",
-    price:10,
-}
+// let obj1={
+//     item:"pen",
+//     price:10,
+// }
 
-let output=`The price of the ${obj1.item} is ${obj1.price} rupees.`;
-console.log(output);
+// let output=`The price of the ${obj1.item} is ${obj1.price} rupees.`;
+// console.log(output);
+
+let fullname = prompt("Enter your fullrname without space:");
+let username = "@"+ fullname + fullname.length;
+console.log("Your username is:", username);
+
