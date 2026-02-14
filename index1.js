@@ -77,7 +77,19 @@
 // }
 // sum(5,2); 
 
-const arrowmul=(a,b)=>{
-    console.log(a*b);
-};
-arrowmul(4,3);
+// const arrowmul=(a,b)=>{
+//     console.log(a*b);
+// };
+// arrowmul(4,3);
+
+function countvowels(str){
+    let count=0;
+    for (const char of str){
+        if(
+            char==="a"||char==="e"||char==="i"||char==="o"||char==="u"
+        ){
+            count++;
+        } 
+    }
+    return count;
+}
