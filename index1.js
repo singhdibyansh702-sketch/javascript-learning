@@ -66,14 +66,13 @@
 //     i++;
 // }
 
-let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
-companies.shift();
-companies.splice(2,1,"ola");
-companies.push("amazon");
-console.log(companies);
+// let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+// companies.shift();
+// companies.splice(2,1,"ola");
+// companies.push("amazon");
+// console.log(companies);
 
 function sumoftwonumbers(a,b){
     console.log(a+b);
 }
-
 sumoftwonumbers(5,2);
