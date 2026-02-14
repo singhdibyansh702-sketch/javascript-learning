@@ -72,7 +72,12 @@
 // companies.push("amazon");
 // console.log(companies);
 
-function sumoftwonumbers(a,b){
-    console.log(a+b);
-}
-sumoftwonumbers(5,2);
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// sum(5,2); 
+
+const arrowmul=(a,b)=>{
+    console.log(a*b);
+};
+arrowmul(4,3);
