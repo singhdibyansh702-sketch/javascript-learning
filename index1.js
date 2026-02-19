@@ -123,9 +123,15 @@
 // }
 
 
-let nums=[1,2,3,4,5,6];
+// let nums=[1,2,3,4,5,6];
 
-nums.forEach((nums)=>{
-    console.log(nums*nums);
+// nums.forEach((nums)=>{
+//     console.log(nums*nums);
 
-});
+// });
+
+
+let h2= document.querySelector("h2");
+console.dir(h2.innerText);
+
+h2.innerText= h2.innerText+" from Apna college students"
